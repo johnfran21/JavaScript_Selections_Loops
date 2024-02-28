@@ -91,13 +91,14 @@ console.log(`Range start: ${start}`);
 console.log(`Range end: ${n}`);
 
 for (let i = start; i <= n; i++) {
+  let output = '';
   if (i % fizzDivisor === 0 && i % buzzDivisor === 0){
     console.log(`${i} FIZZBUZZ`)
   } else if (i % fizzDivisor == 0){
     console.log(`${i} FIZZ`)
   } else if (i % buzzDivisor == 0)
   
-  let output = '';
+  
   if (i % fizzDivisor === 0) {
     output += 'FIZZ';
   }
